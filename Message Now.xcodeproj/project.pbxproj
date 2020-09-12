@@ -15,7 +15,6 @@
 		A133ADD4244D0E9800A19E11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A133ADD2244D0E9800A19E11 /* Main.storyboard */; };
 		A133ADD6244D0E9A00A19E11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A133ADD5244D0E9A00A19E11 /* Assets.xcassets */; };
 		A133ADD9244D0E9A00A19E11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A133ADD7244D0E9A00A19E11 /* LaunchScreen.storyboard */; };
-		A13BB9F6244E79B5000265B9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A13BB9F5244E79B5000265B9 /* GoogleService-Info.plist */; };
 		A14DD1B324BB5DD100876F5C /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14DD1B224BB5DD100876F5C /* Enums.swift */; };
 		A14DD1B524BB61E100876F5C /* PhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14DD1B424BB61E100876F5C /* PhotoTableViewCell.swift */; };
 		A14DD1B724BB6DEF00876F5C /* System Authorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14DD1B624BB6DEF00876F5C /* System Authorization.swift */; };
@@ -73,6 +72,7 @@
 		A1F7279124C5FA6800989276 /* Cancel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1F7279024C5FA6800989276 /* Cancel.mp3 */; };
 		A1FBCEA5244FA2FC00CEB3E2 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FBCEA4244FA2FC00CEB3E2 /* Alert.swift */; };
 		A1FBE6A924BE7C4400D0EEB1 /* ChatingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FBE6A824BE7C4400D0EEB1 /* ChatingViewModel.swift */; };
+		A96CEADB250C383F001FF590 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A96CEADA250C383F001FF590 /* GoogleService-Info.plist */; };
 		BBB173D886C19850ACE46D5D /* Pods_Message_Now.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E843405093D99A2497CFB463 /* Pods_Message_Now.framework */; };
 /* End PBXBuildFile section */
 
@@ -89,7 +89,6 @@
 		A133ADD5244D0E9A00A19E11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A133ADD8244D0E9A00A19E11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A133ADDA244D0E9A00A19E11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A13BB9F5244E79B5000265B9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A14DD1B224BB5DD100876F5C /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		A14DD1B424BB61E100876F5C /* PhotoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableViewCell.swift; sourceTree = "<group>"; };
 		A14DD1B624BB6DEF00876F5C /* System Authorization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "System Authorization.swift"; sourceTree = "<group>"; };
@@ -147,6 +146,7 @@
 		A1F7279024C5FA6800989276 /* Cancel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Cancel.mp3; sourceTree = "<group>"; };
 		A1FBCEA4244FA2FC00CEB3E2 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		A1FBE6A824BE7C4400D0EEB1 /* ChatingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatingViewModel.swift; sourceTree = "<group>"; };
+		A96CEADA250C383F001FF590 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E843405093D99A2497CFB463 /* Pods_Message_Now.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Message_Now.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -256,11 +256,11 @@
 		A133ADE0244D144E00A19E11 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				A96CEADA250C383F001FF590 /* GoogleService-Info.plist */,
 				A133ADCC244D0E9800A19E11 /* AppDelegate.swift */,
 				A133ADCE244D0E9800A19E11 /* SceneDelegate.swift */,
 				A133ADD7244D0E9A00A19E11 /* LaunchScreen.storyboard */,
 				A133ADD5244D0E9A00A19E11 /* Assets.xcassets */,
-				A13BB9F5244E79B5000265B9 /* GoogleService-Info.plist */,
 				A133ADDA244D0E9A00A19E11 /* Info.plist */,
 				A1C85BE824BFBB8B00AE1DDE /* Message.mp3 */,
 				A1F7279024C5FA6800989276 /* Cancel.mp3 */,
@@ -484,11 +484,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A133ADD9244D0E9A00A19E11 /* LaunchScreen.storyboard in Resources */,
-				A13BB9F6244E79B5000265B9 /* GoogleService-Info.plist in Resources */,
 				A1C85BE924BFBB8B00AE1DDE /* Message.mp3 in Resources */,
 				A133ADD6244D0E9A00A19E11 /* Assets.xcassets in Resources */,
 				A1E8AC5A2450ED0100F6D1DA /* Settings.storyboard in Resources */,
 				A1E8AC522450E98300F6D1DA /* People.storyboard in Resources */,
+				A96CEADB250C383F001FF590 /* GoogleService-Info.plist in Resources */,
 				A1EC244A2452553300039EC3 /* UserCell.xib in Resources */,
 				A1F7279124C5FA6800989276 /* Cancel.mp3 in Resources */,
 				A1E8AC502450E62000F6D1DA /* Chats.storyboard in Resources */,
@@ -746,7 +746,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UB632BA9VU;
+				DEVELOPMENT_TEAM = 3UZ3KPNXVC;
 				INFOPLIST_FILE = "Message Now/Support Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -754,7 +754,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.Message-Now";
+				PRODUCT_BUNDLE_IDENTIFIER = com.erdos.messenger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -767,7 +767,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UB632BA9VU;
+				DEVELOPMENT_TEAM = 3UZ3KPNXVC;
 				INFOPLIST_FILE = "Message Now/Support Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -775,7 +775,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.geek.Message-Now";
+				PRODUCT_BUNDLE_IDENTIFIER = com.erdos.messenger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;

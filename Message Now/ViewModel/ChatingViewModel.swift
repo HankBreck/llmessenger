@@ -60,7 +60,12 @@ class ChatingViewModel {
     
     private func createUserViewModel(user: User) -> UserViewModel {
         let name = user.first! + " " + user.last!
-        let lastOnlineDate = user.lastOnlineDate!.getDays() == "Just now" ? "Just now": "Active \(user.lastOnlineDate!.getDays()) ago"
+        let lastOnlineDate: String
+        if user.lastOnlineDate == nil {
+            lastOnlineDate = "Not Seen"
+        } else {
+            lastOnlineDate = user.lastOnlineDate!.getDays() == "Just now" ? "Just now": "Active \(user.lastOnlineDate!.getDays()) ago"
+        }
         let availability = DefaultSettings.shared.availability()
         let status = isYouBlocked || isFriendBlocked || !availability ? "" : user.isOnline! ? "Online" : lastOnlineDate
         return UserViewModel(name: name, username: user.username!, email: user.email!, imageURL: user.imageURL!, uid: user.id!, status: status)

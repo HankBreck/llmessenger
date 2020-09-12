@@ -8,6 +8,7 @@ target 'Message Now' do
   # Pods for Message Now
     pod 'Firebase/Auth'
     pod 'Firebase/Database'
+    pod 'Firebase/Analytics'
     pod 'Firebase/Storage'
     pod 'ReachabilitySwift'
     pod 'Kingfisher'

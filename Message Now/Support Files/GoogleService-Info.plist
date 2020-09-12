@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>920491815242-6qg1l2qvtfpr5f3jsa22ehre1eioi4fj.apps.googleusercontent.com</string>
+	<string>459058212962-k2ko8ebj7s41sqelmedf392kebjcbl0k.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.920491815242-6qg1l2qvtfpr5f3jsa22ehre1eioi4fj</string>
+	<string>com.googleusercontent.apps.459058212962-k2ko8ebj7s41sqelmedf392kebjcbl0k</string>
 	<key>API_KEY</key>
-	<string>AIzaSyAc-3TGJndYUolHIKta50Rd345P8DMb-No</string>
+	<string>AIzaSyAuBNvE_mpC_b_iwhDokBbwlvnpaYERjtk</string>
 	<key>GCM_SENDER_ID</key>
-	<string>920491815242</string>
+	<string>459058212962</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.geek.Message-Now</string>
+	<string>com.erdos.messenger</string>
 	<key>PROJECT_ID</key>
-	<string>message-now-80218</string>
+	<string>erdo-91918</string>
 	<key>STORAGE_BUCKET</key>
-	<string>message-now-80218.appspot.com</string>
+	<string>erdo-91918.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,8 +29,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:920491815242:ios:e851f83b4ad36155</string>
+	<string>1:459058212962:ios:861cf0862a232ce937213b</string>
 	<key>DATABASE_URL</key>
-	<string>https://message-now-80218.firebaseio.com</string>
+	<string>https://erdo-91918.firebaseio.com</string>
 </dict>
 </plist>
