@@ -12,5 +12,5 @@ target 'Message Now' do
     pod 'Firebase/Storage'
     pod 'ReachabilitySwift'
     pod 'Kingfisher'
-
+    pod 'GoogleMLKit/Translate'
 end
